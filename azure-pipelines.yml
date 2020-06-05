@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  projectTarget: 'Source/Dws.Template.Domain.Common/Dws.Template.Domain.Common.csproj'
+  projectTarget: 'Source/Dws.Template.Domain/Dws.Template.Domain.csproj'
   buildConfiguration: 'Release'
   coreCliVersion: 3.1.300
   runTime: 'win10-x64'
