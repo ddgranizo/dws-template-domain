@@ -1,0 +1,57 @@
+{
+	"templateName": "React basic 5 Views PCF TextBox",
+	"replacePairs": [
+		{
+			"replaceDescription": "NamespaceRepositoryFormat", 
+			"oldValue": "dws-template", 
+			"applyForDirectories": true, 
+			"applyForFileNames": true, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.json|.gitignore|*.md|*.sln|*.yml|*.csproj|*.cs"
+		},
+		{
+			"replaceDescription": "Namespace", 
+			"oldValue": "Dws.Template", 
+			"applyForDirectories": true, 
+			"applyForFileNames": true, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.json|.gitignore|*.md|*.sln|*.yml|*.csproj|*.cs"
+		},
+		{
+			"replaceDescription": "DevopsProjectFeedId", 
+			"oldValue": "@Devops.FeedId", 
+			"applyForDirectories": false, 
+			"applyForFileNames": false, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.yml"
+		},
+		{
+			"replaceDescription": "DevopsMajorVersion", 
+			"oldValue": "@Version.Major", 
+			"applyForDirectories": false, 
+			"applyForFileNames": false, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.yml"
+		},
+		{
+			"replaceDescription": "DevopsMinorVersion", 
+			"oldValue": "@Version.Minor", 
+			"applyForDirectories": false, 
+			"applyForFileNames": false, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.yml"
+		},
+		{
+			"replaceDescription": "DevopsRevisionVersion", 
+			"oldValue": "@Version.Build", 
+			"applyForDirectories": false, 
+			"applyForFileNames": false, 
+			"applyForFileContents": true,
+			"applyForFilePattern": "*.yml"
+		}
+	],
+	"ignorePathPatterns": [
+		"ddtemplate.json",
+		".git"
+	]
+}

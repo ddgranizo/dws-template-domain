@@ -1,0 +1,1 @@
+# dws-template-domain-common
