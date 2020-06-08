@@ -1,1 +1,1 @@
-# dws-template-domain-common
+# dws-template-domain
